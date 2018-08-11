@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="main1.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript"  src="../jquery.js"></script>
+    <script type="text/javascript" src="main1.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div id="header">
+        <div id="colorgray"></div>
+        <div id="p1" onmouseover="over()" onmouseout="clear1()" >
+            <p>送至：<span id="m1"><a href="javascript:void(0)" >北京 ↓</a></span></p>
+            <div id="white1">
+                <ul id="home" onmouseover="destination()">
+                    <li><a href="javascript:void (0)">北京</a></li><li><a href="javascript:void (0)">上海</a></li><li><a href="javascript:void (0)">天津</a></li>
+                    <li><a href="javascript:void (0)">重庆</a></li><li><a href="javascript:void (0)">河北</a></li><li><a href="javascript:void (0)">吉林</a></li>
+                    <li><a href="javascript:void (0)">江西</a></li><li><a href="javascript:void (0)">福建</a></li><li><a href="javascript:void (0)">银川</a></li>
+                    <li><a href="javascript:void (0)">西藏</a></li><li><a href="javascript:void (0)">江苏</a></li><li><a href="javascript:void (0)">深圳</a></li>
+                    <li><a href="javascript:void (0)">新疆</a></li><li><a href="javascript:void (0)">河南</a></li><li><a href="javascript:void (0)">西安</a></li>
+                    <li><a href="javascript:void (0)">台湾</a></li><li><a href="javascript:void (0)">辽宁</a></li><li><a href="javascript:void (0)">湖南</a></li>
+                    <li><a href="javascript:void (0)">海外</a></li><li><a href="javascript:void (0)">山东</a></li><li><a href="javascript:void (0)">广东</a></li>
+                    <li><a href="javascript:void (0)">安徽</a></li><li><a href="javascript:void (0)">青岛</a></li><li><a href="javascript:void (0)">广西</a></li>
+                    <li><a href="javascript:void (0)">浙江</a></li><li><a href="javascript:void (0)">厦门</a></li><li><a href="javascript:void (0)">云南</a></li>
+                    <li><a href="javascript:void (0)">黑龙江</a></li><li><a href="javascript:void (0)">澳门</a></li><li><a href="javascript:void (0)">宁夏</a></li>
+                    <li><a href="javascript:void (0)">湖北</a></li><li><a href="javascript:void (0)">钓鱼岛</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="p2">你好,<a href="#">请登录</a>&nbsp;&nbsp;<a href="../注册页/enroll.html" class="a2">免费注册</a></p>
+        <ul class="menu">
+            <li><a href="#">我的订单</a></li>
+            <li class="li1"  onmouseover="over2()" onmouseout="clear1()"><span id="m2"><a href="#" >我的京东↓</a></span>
+                <div id="white2"><img src="img/wh2banner.jpg"></div>
+            </li>
+            <li><a href="#">京东会员</a></li>
+            <li><a href="#">企业采购</a></li>
+            <li class="li1" onmouseover="over3()" onmouseout="clear1()"><span  id="m3"><a href="#"  >&nbsp;手机京东↓</a></span>
+                <div id="white3"><a href="#"><img src="img/wh3banner.jpg"></a></div>
+            </li>
+            <li class="li1" onmouseover="over4()" onmouseout="clear1()" ><a href="#" id="m4" >关注京东↓</a>
+                <div id="white4"><a href="#"><img src="img/wh4banner.jpg"></a></div>
+            </li>
+            <li class="li1" onmouseover="over5()" onmouseout="clear1()"><a href="#" id="m5"  >客户服务↓</a>
+                <div id="white5"><a href="#"><img src="img/wh5banner.jpg"></a></div>
+            </li>
+        </ul>
+    </div>
+    <div id="contents">
+        <a href="../index.html"><img src="img/m3.jpg" class="img3"/></a>
+        <form>
+            <input type="text" id="txt1" value="大闸蟹满减"  onclick="obey()" onblur="disobey()" />
+            <input type="button" value="搜索" class="but1"/>
+        </form>
+        <a href="javascript:void(0)"><img src="img/m4.jpg" id="img4"  onmousemove="car()" onmouseout="clearCar()"/></a>
+        <span id="carban"><img src="img/carbanner.jpg" id="carbanner"></span>
+        <ul class="link">
+            <li><a href="#">FIIL Diva</a></li>
+            <li><a href="#">低至五折</a></li>
+            <li><a href="#">低至9.9</a></li>
+            <li><a href="#">魅蓝note</a></li>
+            <li><a href="#">一元拿走</a></li>
+            <li><a href="#">进口牛奶</a></li>
+            <li><a href="#">足浴盆</a></li>
+            <li><a href="#">一元专享</a></li>
+            <li><a href="#">短靴</a></li>
+        </ul>
+        <div id="contents1">
+            <img src="img/m5.jpg" class="img5"/>
+            <ul class="menu1">
+                <li><a href="#">服装城</a></li>
+                <li><a href="#">美妆馆</a></li>
+                <li><a href="#">京东超市</a></li>
+                <li><a href="#">生鲜</a></li>
+                <li><a href="#">全球购</a></li>
+                <li><a href="#">闪购</a></li>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">拍卖</a></li>
+                <li><a href="#">金融</a></li>
+            </ul>
+        </div>
+        <div id="contents2">
+            <div class="left">
+                <ul class="link1">
+                    <div id="white"></div>
+                </ul>
+            </div>
+            <div class="right">
+                <div class="logo">
+                    <div id="card">
+                        <ul></ul><div id="card1"></div><div id="card22"></div><div id="card3"></div><div id="card4"></div>
+                    </div>
+                    <div id="card2"></div>
+                </div>
+            </div>
+        </div>
+        <div id="contents3">
+            <h2><a href="javascript:void(0)">食品饮料&nbsp;</a></h2>
+            <p class="p1"><a href="javascript:void(0)"> >休闲食品&nbsp;&nbsp;></a></p>
+            <p class="p2"><a href="javascript:void(0)">坚果炒货&nbsp;&nbsp;></a></p>
+            <p class="p3"><a href="javascript:void(0)">三只松鼠(Three Squireels)&nbsp;&nbsp;></a></p>
+            <p class="p4"><a href="javascript:void(0)">三只松鼠碧根果</a></p>
+            <div id="box">
+                <div id="box1">
+                    <img src="" id="img1">
+                </div>
+            </div>
+            <!--<div id="fang">
+                <div id="move"></div>
+            </div>-->
+            <div id="center">
+                <div id="demo">
+                    <div id="small-box">
+                        <div id="mark"></div>
+                        <div id="float-box"></div>
+                        <img src="img/centerbanner1.jpg" id="img" />
+                    </div>
+                    <div id="big-box">
+                        <img src="" id="img2"/>
+                    </div>
+                </div>
+                <!--<img src="img/centerbanner1.jpg" id="img" onmouseout="f2()" onmousemove="f1(event,this)" >-->
+                <ul id="smallPic">
+                    <li><img src="img/centerbanner1.jpg" onmouseover="f(this)"></li>
+                    <li><img src="img/centerbanner2.jpg" onmouseover="f(this)"></li>
+                    <li><img src="img/centerbanner3.jpg" onmouseover="f(this)"></li>
+                    <li><img src="img/centerbanner4.jpg" onmouseover="f(this)"></li>
+                </ul>
+                <a href="#"><img src="img/share.jpg" class="share"></a>
+                <h2><a href="#">[京东超市]三只松鼠&nbsp;坚果炒货&nbsp;零食奶油味&nbsp;碧根果225g/袋</a></h2>
+                <h3><a href="#">京东坚果自营&nbsp;满99减50&nbsp;2件8折松鼠专场</a></h3>
+                <div class="Price">￥22.90</div>
+                <span id="sale"><a href="javascript:void(0)"  onmouseover=" overqushi()" onmouseout="outqushi()"><img src="img/qushi.jpg" id="qushi" ><img src="img/sale.jpg"></a></span>
+                <span class="have"><a href="javascript:void(0)" ><img src="img/have.jpg"></a></span>
+                <p class="p7">配&nbsp;送&nbsp;至：<input id="sel" onmouseover="addDressBanner()" onmouseout="delDressBanner()" type="text" value="上海徐汇区城区&nbsp;↓">&nbsp;<span>有货，</span></selspan>支持99元免运费|货到付款</p>
+                <div id="adBanner" onmouseover="addDressBanner()" onmouseout="delDressBanner()">
+                    <ul id="card5">
+                        <li>北京&nbsp;∨</li><li>请选择&nbsp;∨</li>
+                    </ul>
+                    <div class="div1">
+                        <ul id="ul1">
+                            <li>北京</li><li>上海</li><li>湖北</li><li>安徽</li><li>钓鱼岛</li><li>河南</li><li>陕西</li><li>山西</li>
+                            <li>吉林</li><li>天津</li><li>广西</li><li>内蒙古</li><li>云南</li><li>陕西</li><li>唐山</li><li>江西</li>
+                            <li>山东</li><li>南京</li><li>银川</li><li>辽宁</li><li>青海</li><li>海南</li><li>承德</li><li>重庆</li>
+                            <li>广东</li><li>澳门</li><li>山西</li><li>甘肃</li><li>港澳</li><li>浙江</li><li>贵州</li><li>安徽</li>
+                            <li>江苏</li><li>福建</li><li>黑龙江</li><li>台湾</li>
+                        </ul>
+                    </div>
+                    <div class="div2">
+                        <ul id="ul2">
+                            <li>朝阳区</li><li>海淀区</li><li>西城区</li><li>东城区</li><li>崇文区</li><li>玄武区</li><li>丰台区</li><li>石景山区</li>
+                            <li>门头沟</li><li>房山区</li><li>通州区</li><li>太兴区</li><li>顺义区</li><li>怀柔区</li><li>密云区</li><li>昌平区</li>
+                            <li>平谷区</li><li>延庆县</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="p8">服务：由京东发货，并提供售后服务。23:00前完成下单，预计明天<span>(10月22日)送达</span></p>
+                <p class="p9">选择规格：</p>
+                <ul id="menu">
+                    <li><img src="img/lipic.jpg">夏威夷果185g/袋</li>
+                    <li><img src="img/lipic.jpg">碧根果225g</li>
+                    <li><img src="img/lipic.jpg">开口松子215g/袋</li>
+                    <li><img src="img/lipic.jpg">混合坚果780g/盒</li>
+                    <li><img src="img/lipic.jpg">开心果225g/袋</li>
+                    <li><img src="img/lipic.jpg">纸皮核桃225g/袋</li>
+                    <li><img src="img/lipic.jpg">琥珀核桃仁165g/袋</li>
+                    <li><img src="img/lipic.jpg">炭烧腰果185g/袋</li>
+                    <li><img src="img/lipic.jpg">手薄巴旦木235g/袋</li>
+                </ul>
+                <input type="text" value="1" id="number">
+                <input type="button" value="+" id="add" onclick="addNum()">
+                <input type="button" value="-" id="del" onclick="delNum()">
+                <img src="img/savecar.jpg" id="saveCar">
+                <a href="#"><img src="img/logo.jpg" class="logo"></a>
+                <div id="span">
+                <span class="span1"><a href="#">咨询JIMI</a></span>
+                <span class="span2"><a href="#">进店逛逛</a></span>
+                <span class="span3"><a href="#">关注店铺</a></span>
+                </div>
+                <a href="#"><img src="img/service.jpg" class="service"></a>
+            </div>
+            <p class="p5"><a href="#">举报</a></p>
+            <p class="p6"><a href="#">温馨提示:支持七天无理由退货</a></p>
+        </div>
+        <div id="contents4">
+            <img src="img/left2.jpg" id="left2">
+            <div id="container">
+            <div id="list">
+                <img src="img/right2.jpg">
+                <img src="img/right3.jpg">
+                <img src="img/right4.jpg">
+                <img src="img/right5.jpg">
+                <img src="img/right6.jpg">
+            </div>
+        </div>
+            <a id="prev"> ︿ </a>
+            <a id="next"> ﹀ </a>
+            <ul id="head">
+                <li>商品详情</li>
+                <li>累计评价</li>
+            </ul>
+            <div id="ban">
+                <span><img src="img/ban.gif"></span>
+                <!--下面这对div是最大的，用于上面的选项卡-->
+                <span style="display: none">
+                        <div id="title">
+                            <span id="ra1">
+                                <input type="radio" name="a">全部（<span id="s1"></span>）
+                                <input type="radio" name="a">追评
+                                <input type="radio" name="a">图片
+                            </span>
+                        </div>
+                        <div id="wrap1"> <!--用于盛放复制的每个留言板-->
+                            <div id="cont" class="cont">
+                                <div id="t1"></div>
+                                <div id="pic"></div>
+                                <div id="time"></div>
+                                <div id="t2"></div>
+                                <div id="name"></div>
+                                <div id="delSa" onclick="delSay(this)">|删除</div>
+                                <img src="img/JDlogo.jpg" id="JD">
+                            </div>
+                        </div>
+                        <div id="sort1">
+                            <p class="tx1">姓名：<input type="text" style="border: 1px solid #CCCCCC" id="tx1"></p>
+                            <p class="tx2">内容：<textarea style="border: 1px solid #CCCCCC" id="tx2"></textarea></p>
+                            <p  id="fi1">图片：<input type="file"></p>
+                            <input type="button" id="bu1" value="评价" onclick="say()">
+                            <input type="button" id="bu2" value="取消" onclick="">
+                        </div>
+                </span>
+            </div>
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript">
+    $(function(){
+        //定义全局变量
+        var curIndex = 0; //当前index
+        var imgLen = $("#list img").length; //图片总数
+
+        //进行事件绑定
+
+        //1.设置自动的定时器
+        // 定时器自动变换2秒每次
+        var autoChange = setInterval(function(){
+            if(curIndex < imgLen-1){
+                curIndex ++;
+            }else{
+                curIndex = 0;
+            }
+            //调用变换处理函数
+            changeTo(curIndex);
+        },2000);
+
+        // ---------左箭头---开始--------//
+        //左箭头滑入滑出事件处理
+        $("#prev").hover(function(){
+            //滑入清除定时器
+            clearInterval(autoChange);
+        },function(){
+            //滑出则重置定时器
+            autoChangeAgain();
+        });
+
+        //左箭头点击处理
+        $("#prev").click(function(){
+            //根据curIndex进行上一个图片处理
+            curIndex = (curIndex > 0) ? (--curIndex) : (imgLen - 1);
+            changeTo(curIndex);
+        });
+        // ---------左箭头---结束--------//
+
+        // ---------右箭头---开始--------//
+
+        //右箭头滑入滑出事件处理
+        $("#next").hover(function(){
+            //滑入清除定时器
+            clearInterval(autoChange);
+        },function(){
+            //滑出则重置定时器
+            autoChangeAgain();
+        });
+        //右箭头点击处理
+        $("#next").click(function(){
+            curIndex = (curIndex < imgLen - 1) ? (++curIndex) : 0;
+            changeTo(curIndex);
+        });
+
+        // ---------右箭头---结束--------//
+
+        //清除定时器时候的重置定时器--封装
+        function autoChangeAgain(){
+            autoChange = setInterval(function(){
+                if(curIndex < imgLen-1){
+                    curIndex ++;
+                }else{
+                    curIndex = 0;
+                }
+                //调用变换处理函数
+                changeTo(curIndex);
+            },2000);
+        }
+
+        //图片切换的处理函数
+        function changeTo(num){
+            var goLeft = num * 505;
+            $("#list").animate({top: "-" + goLeft + "px"},500);
+        }
+    });
+
+</script>
+</body>
+</html>

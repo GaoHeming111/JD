@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="enroll.js" type="text/javascript"></script>
+    <link href="enroll.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<div id="wrap">
+    <img src="img/fex.jpg" id="fixed" onmousemove="fix()" onmouseout="fix1()">
+    <div id="header">
+        <img src="img/logo.jpg" class="logo">
+        <img src="img/shadow.jpg" class="shadow">
+        <p id="lenged"><span>已有账号</span> <a href="javascript:void(0)">请登录</a></p>
+    </div>
+        <div id="content">
+            <form action="/login">
+                <div id="cont1">
+                    <span>用 &nbsp;&nbsp;户&nbsp;&nbsp; 名</span>
+                    <input type="text" id="txt1" name="text" value="您的帐号名和用户名" onfocus="t1()" onblur="t11()">
+                    <p id="p1"></p>
+                </div>
+                <div id="cont2">
+                    <span>设 置 密 码</span>
+                    <input type="password" id="txt2" name="password" value="" onfocus="t2()" onblur="t22()">
+                </div>
+                <div id="cont3">
+                    <span>确 认 密 码</span>
+                    <input type="password" id="txt3" value="" onfocus="t3()" onblur="t33()">
+                    <p id="p2" style=" display: none; position: absolute; left:20px; color: #CCCCCC; top: 40px;"></p>
+                </div>
+                <div id="cont4">
+                    <span id="label">中国 + 86 ﹀</span>
+                    <input type="text" id="txt4" value="建议使用常用手机" onfocus="t4()" onblur="t44()" >
+                </div>
+                <a href="#"><p id="mail">或 <span>邮箱验证</span></p></a>
+                <img src="img/ma.jpg" id="ma">
+                <div id="save"><a href="#">获取验证码</a></div>
+                <div id="cont5">
+                    <span>验 &nbsp;&nbsp;证&nbsp;&nbsp; 码</span>
+                    <input type="text" id="txt5" value="请输入验证码"  onfocus="t5()" onblur="t55()" >
+                </div>
+                <div id="cont6">
+                    <span>手机验证码</span>
+                    <input type="text" id="txt6" value="请输入手机验证码" onfocus="t6()" onblur="t66()" >
+                </div>
+                <input type="checkbox" id="rad">
+                <p id="agree">我已阅读并同意<span>《京东用户注册协议》</span></p>
+                <input type="submit" value="立即注册" style=" background: red; color: white; z-index:10; position: absolute; top:553px; width: 400px; height: 54px;">
+                <img src="img/banner.jpg" id="banner">
+            </form>
+        </div>
+    <div id="footer">
+        <div id="hr"></div>
+        <ul id="lists">
+             <li>关于我们</li><li>联系我们</li><li>人才招聘</li>
+            <li>商家入驻</li><li>广告服务</li><li>手机京东</li>
+            <li>友情链接</li><li>销售联盟</li><li>京东社区</li>
+            <li >京东公益</li><li class="li1">English Site</li>
+        </ul>
+        <img src="img/copy.jpg" id="copy">
+    </div>
+
+</div>
+</body>
+</html>

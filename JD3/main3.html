@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="main3.css" type="text/css" rel="stylesheet">
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="main3.js"></script>
+</head>
+<body>
+<div id="wrap">
+    <div id="header">
+    <div id="colorgray"></div>
+    <div id="p1" onmouseover="over()" onmouseout="clear1()" >
+        <p>送至：<span id="m1"><a href="javascript:void(0)" >北京 ↓</a></span></p>
+        <div id="white1">
+            <ul id="home" onmouseover="destination()">
+                <li><a href="javascript:void (0)">北京</a></li><li><a href="javascript:void (0)">上海</a></li><li><a href="javascript:void (0)">天津</a></li>
+                <li><a href="javascript:void (0)">重庆</a></li><li><a href="javascript:void (0)">河北</a></li><li><a href="javascript:void (0)">吉林</a></li>
+                <li><a href="javascript:void (0)">江西</a></li><li><a href="javascript:void (0)">福建</a></li><li><a href="javascript:void (0)">银川</a></li>
+                <li><a href="javascript:void (0)">西藏</a></li><li><a href="javascript:void (0)">江苏</a></li><li><a href="javascript:void (0)">深圳</a></li>
+                <li><a href="javascript:void (0)">新疆</a></li><li><a href="javascript:void (0)">河南</a></li><li><a href="javascript:void (0)">西安</a></li>
+                <li><a href="javascript:void (0)">台湾</a></li><li><a href="javascript:void (0)">辽宁</a></li><li><a href="javascript:void (0)">湖南</a></li>
+                <li><a href="javascript:void (0)">海外</a></li><li><a href="javascript:void (0)">山东</a></li><li><a href="javascript:void (0)">广东</a></li>
+                <li><a href="javascript:void (0)">安徽</a></li><li><a href="javascript:void (0)">青岛</a></li><li><a href="javascript:void (0)">广西</a></li>
+                <li><a href="javascript:void (0)">浙江</a></li><li><a href="javascript:void (0)">厦门</a></li><li><a href="javascript:void (0)">云南</a></li>
+                <li><a href="javascript:void (0)">黑龙江</a></li><li><a href="javascript:void (0)">澳门</a></li><li><a href="javascript:void (0)">宁夏</a></li>
+                <li><a href="javascript:void (0)">湖北</a></li><li><a href="javascript:void (0)">钓鱼岛</a></li>
+            </ul>
+        </div>
+    </div>
+    <p class="p2">你好,<a href="#">请登录</a>&nbsp;&nbsp;<a href="../注册页/enroll.html" class="a2">免费注册</a></p>
+    <ul class="menu">
+        <li><a href="#">我的订单</a></li>
+        <li class="li1"  onmouseover="over2()" onmouseout="clear1()"><span id="m2"><a href="#" >我的京东↓</a></span>
+            <div id="white2"><img src="img/wh2banner.jpg"></div>
+        </li>
+        <li><a href="#">京东会员</a></li>
+        <li><a href="#">企业采购</a></li>
+        <li class="li1" onmouseover="over3()" onmouseout="clear1()"><span  id="m3"><a href="#"  >&nbsp;手机京东↓</a></span>
+            <div id="white3"><a href="#"><img src="img/wh3banner.jpg"></a></div>
+        </li>
+        <li class="li1" onmouseover="over4()" onmouseout="clear1()" ><a href="#" id="m4" >关注京东↓</a>
+            <div id="white4"><a href="#"><img src="img/wh4banner.jpg"></a></div>
+        </li>
+        <li class="li1" onmouseover="over5()" onmouseout="clear1()"><a href="#" id="m5"  >客户服务↓</a>
+            <div id="white5"><a href="#"><img src="img/wh5banner.jpg"></a></div>
+        </li>
+    </ul>
+</div>
+    <div id="contents">
+        <a href="../index.html"><img src="img/m3.jpg" class="img3"/></a>
+        <form>
+            <input type="text" id="txt1" value="大闸蟹满减"  onclick="obey()" onblur="disobey()" />
+            <input type="button" value="搜索" class="but1"/>
+        </form>
+        <a href="javascript:void(0)"><img src="img/m4.jpg" id="img4"  onmousemove="car()" onmouseout="clearCar()"/></a>
+        <span id="carban"><img src="img/carbanner.jpg" id="carbanner"></span>
+        <ul class="link">
+            <li><a href="#">FIIL Diva</a></li>
+            <li><a href="#">低至五折</a></li>
+            <li><a href="#">低至9.9</a></li>
+            <li><a href="#">魅蓝note</a></li>
+            <li><a href="#">一元拿走</a></li>
+            <li><a href="#">进口牛奶</a></li>
+            <li><a href="#">足浴盆</a></li>
+            <li><a href="#">一元专享</a></li>
+            <li><a href="#">短靴</a></li>
+        </ul>
+        <div id="contents1">
+            <img src="img/m5.jpg" class="img5"/>
+            <ul class="menu1">
+                <li><a href="#">服装城</a></li>
+                <li><a href="#">美妆馆</a></li>
+                <li><a href="#">京东超市</a></li>
+                <li><a href="#">生鲜</a></li>
+                <li><a href="#">全球购</a></li>
+                <li><a href="#">闪购</a></li>
+                <li><a href="#">团购</a></li>
+                <li><a href="#">拍卖</a></li>
+                <li><a href="#">金融</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div id="cont3">
+        <ul id="biao">
+            <li>全部结果 ></li>
+            <li><img src="img/plogo.jpg"> </li>
+            <li>>"Hipanda"</li>
+        </ul>
+        <img src="img/hipanda.jpg">
+        <ul class="ul1">
+            <li style="float: left; padding-right: 78px; background-color: #f3f3f3; color: #676767; font-weight:bolder ">男装：</li>
+            <li>卫衣</li>
+            <li>休闲裤</li>
+            <li>T桖</li>
+            <li>针织衫</li>
+            <li>羽绒服</li>
+            <li>棉服</li>
+            <li>夹克</li>
+            <li><span style=" width: 50px; line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">更多&nbsp;&nbsp;&nbsp;﹀</span></li>
+        </ul>
+        <ul class="ul2">
+            <li style="float: left; padding-right: 78px; background-color: #f3f3f3; color: #676767; font-weight:bolder ">女装：</li>
+            <li>T桖</li>
+            <li>&nbsp;&nbsp;休闲裤</li>
+            <li>卫衣</li>
+            <li>羽绒服</li>
+            <li>棉服</li>
+            <li>牛仔裤</li>
+            <li style="padding-right: 98px;">打底裤</li>
+            <li><span style=" width: 50px; line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">更多&nbsp;&nbsp;&nbsp;﹀</span></li>
+        </ul>
+        <ul class="ul3">
+            <li style="float: left; padding-right: 78px; background-color: #f3f3f3; color: #676767; font-weight:bolder ">类型：</li>
+            <li>卫衣</li>
+            <li>针织衫</li>
+            <li>休闲裤</li>
+            <li><span style=" width: 50px; line-height: 23px; padding-right: 670px;">T桖&nbsp;&nbsp;&nbsp;</span></li>
+            <li style="padding-right:35px;"><span style=" width: 50px;  line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">+&nbsp;&nbsp;&nbsp;多选</span></li>
+        </ul>
+        <ul class="ul4">
+            <li style="float: left; padding-right:55px; background-color: #f3f3f3; color: #676767; font-weight:bolder ">上市时间：</li>
+            <li>2016秋季</li>
+            <li>2016冬季</li>
+            <li>2015秋季</li>
+            <li>2015冬季</li>
+            <li>2016夏季</li>
+            <li>2016春季</li>
+            <li>2015夏季</li>
+            <li>2016春季</li>
+            <li style="padding-right: 90px;">往季</li>
+            <li style="padding-right: 10px;"><span style=" width: 50px; line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">更多&nbsp;&nbsp;&nbsp;﹀</span></li>
+            <li style="margin-right: 0px;"><span style=" width: 30px; line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">+&nbsp;&nbsp;&nbsp;多选</span></li>
+        </ul>
+        <ul class="ul5">
+            <li style="float: left; padding-right:55px; background-color: #f3f3f3; color: #676767; font-weight:bolder ">高级选项：</li>
+            <li><span style=" width: 50px; line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">尺码&nbsp;&nbsp;&nbsp;﹀</span></li>
+            <li><span style=" width: 50px; line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">人群&nbsp;&nbsp;&nbsp;﹀</span></li>
+            <li><span style=" width: 50px; line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">衣长&nbsp;&nbsp;&nbsp;﹀</span></li>
+            <li><span style=" width: 50px; line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">分类&nbsp;&nbsp;&nbsp;﹀</span></li>
+            <li><span style=" width: 50px; line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">风格&nbsp;&nbsp;&nbsp;﹀</span></li>
+            <li><span style=" width: 50px; line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">毛线粗细&nbsp;&nbsp;&nbsp;﹀</span></li>
+            <li><span style=" width: 50px; line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">袖型&nbsp;&nbsp;&nbsp;﹀</span></li>
+            <li style="padding-right:515px;"><span style=" width: 50px; line-height: 23px; border: 1px solid #dfdfdf; padding: 2px;">其他分类&nbsp;&nbsp;&nbsp;﹀</span></li>
+        </ul>
+    </div>
+    <div id="cont4">
+        <div class="left">
+            <h4 style="position: absolute; left: 9px; top: 0px;">商品精选</h4>
+            <p style="color: #dbdbdb; position: absolute; left: 148px; top: 12px;">广告</p>
+            <dl>
+                <dt><img src="img/dtt1.jpg"></dt>
+                <dd style=" color: red; margin-top: 10px; margin-left: 5px;">￥98.00</dd>
+                <dd style="margin-top: 10px; margin-left: 5px;">丽韵小屋 休闲裤男复古修<br>身小脚哈伦裤男</dd>
+                <dd style="margin-top: 10px; margin-left: 5px;">已有0人评价</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/dtt2.jpg"></dt>
+                <dd style=" color: red; margin-top: 10px; margin-left: 5px;">￥98.00</dd>
+                <dd style="margin-top: 10px; margin-left: 5px;">丽韵小屋 休闲裤男复古修<br>身小脚哈伦裤男</dd>
+                <dd style="margin-top: 10px; margin-left: 5px;">已有0人评价</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/dtt1.jpg"></dt>
+                <dd style=" color: red; margin-top: 10px; margin-left: 5px;">￥98.00</dd>
+                <dd style="margin-top: 10px; margin-left: 5px;">丽韵小屋 休闲裤男复古修<br>身小脚哈伦裤男</dd>
+                <dd style="margin-top: 10px; margin-left: 5px;">已有0人评价</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/dtt2.jpg"></dt>
+                <dd style=" color: red; margin-top: 10px; margin-left: 5px;">￥98.00</dd>
+                <dd style="margin-top: 10px; margin-left: 5px;">丽韵小屋 休闲裤男复古修<br>身小脚哈伦裤男</dd>
+                <dd style="margin-top: 10px; margin-left: 5px;">已有0人评价</dd>
+            </dl>
+            <dl>
+                <dt><img src="img/dtt2.jpg"></dt>
+                <dd style=" color: red; margin-top: 10px; margin-left: 5px;">￥98.00</dd>
+                <dd style="margin-top: 10px; margin-left: 5px;">丽韵小屋 休闲裤男复古修<br>身小脚哈伦裤男</dd>
+                <dd style="margin-top: 10px; margin-left: 5px;">已有0人评价</dd>
+            </dl>
+        </div>
+        <div class="right">
+            <div id="headerMenu">
+                <ul id="down">
+                    <li style="border-right: 1px solid #e2e2e2; background-color:#e33a33; color: white;">综合 ↓</li>
+                    <li>销量 ↓</li>
+                    <li>评论数 ↓</li>
+                    <li>新品 ↓</li>
+                    <li>价格 ↓</li>
+                </ul>
+                <ul id="tab">
+                    <li><p style=" width: 13px; height: 9px;  margin-top: 14px; border-top: 1px solid #e2e2e2;"></p></li>
+                    <li><p style=" width: 13px; height: 6px; margin-top: 17px; border-top: 1px solid #e2e2e2;"></p></li>
+                    <li><p style=" width: 13px; height: 15px;  margin-top: 8px; border-top: 1px solid #e2e2e2;"></p></li>
+                    <li><p style=" width: 13px; height: 12px;  margin-top: 11px; border-top: 1px solid #e2e2e2;"></p></li>
+                    <li style="border:none; float: left; width: 13px; height: 23px;"><p style=" width: 13px; height: 5px;  margin-top: 18px; border-top: 1px solid #e2e2e2;"></p></li>
+                </ul>
+                <input type="text" value="￥" style="width: 58px; height: 23px; border: 1px solid #e2e2e2; float: left; margin-left: 14px; margin-top: 7px;">
+                <p style="float: left; margin-left: 7px; margin-top: 10px;">--</p>
+                <input type="text" value="￥" style="width: 58px; height: 23px; border: 1px solid #e2e2e2; float: left; margin-left: 14px; margin-top: 7px;">
+                <img src="img/headerMenuBan.jpg" style="float: left; margin-left: 260px; margin-top: 7px;">
+            </div>
+            <div id="adv">
+                <p style=" padding-left: 13px; padding-top: 7px; float: left;">
+                    配送至：
+                    <select style="border: 1px solid #e2e2e2;">
+                        <option>上海徐汇区城区&nbsp;&nbsp;</option>
+                    </select>
+                </p>
+                <ul class="box">
+                    <li><input type="checkbox"> <p style="display: inline; ">京东配送</p></li>
+                    <li><input type="checkbox"> <p style="display: inline; ">货到付款</p></li>
+                    <li><input type="checkbox"> <p style="display: inline; ">仅显示有货</p></li>
+                    <li><input type="checkbox"> <p style="display: inline; ">全球购</p></li>
+                    <li><input type="checkbox"> <p style="display: inline; color: red;">闪购三周年</p></li>
+                    <li><input type="checkbox"> <p style="display: inline;"><img src="img/libanner.jpg" style=""></p></li>
+                </ul>
+            </div>
+            <div id="Dls">
+                <div class="dls">
+                    <dl>
+                        <dt><a href="../JD2/index1.html"><img src="img/dldt1.jpg"></a></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                </div>
+                <div class="dls d">
+                    <dl>
+                        <dt><a href="../JD2/index1.html"><img src="img/dldt2.jpg"></a></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                </div>
+                <div class="dls d">
+                    <dl>
+                        <dt><a href="../JD2/index1.html"><img src="img/dldt1.jpg"></a></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                </div>
+                <div class="dls d">
+                    <dl>
+                        <dt><a href="../JD2/index1.html"><img src="img/dldt1.jpg"></a></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                </div>
+                <div class="dls d">
+                    <dl>
+                        <dt><a href="../JD2/index1.html"><img src="img/dldt1.jpg"></a></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                </div>
+                <div class="dls d">
+                    <dl>
+                        <dt><a href="../JD2/index1.html"><img src="img/dldt1.jpg"></a></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                </div>
+                <div class="dls d">
+                    <dl>
+                        <dt><a href="../JD2/index1.html"><img src="img/dldt1.jpg"></a></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                </div>
+                <div class="dls d">
+                    <dl>
+                        <dt><a href="../JD2/index1.html"><img src="img/dldt1.jpg"></a></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                </div>
+                <div class="dls d">
+                    <dl>
+                        <dt><a href="../JD2/index1.html"><img src="img/dldt1.jpg"></a></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt4.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt2.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt1.jpg"></dt>
+                    </dl>
+                    <dl>
+                        <dt><img src="img/dldt3.jpg"></dt>
+                    </dl>
+                </div>
+            </div>
+                <ul class="pagination pos" id="lists">
+                    <li><a href="javascript:void(0)">< 上一页</a></li>
+                    <li><a href="javascript:void(0)">1</a></li>
+                    <li><a href="javascript:void(0)">2</a></li>
+                    <li><a href="javascript:void(0)">3</a></li>
+                    <li><a href="javascript:void(0)">4</a></li>
+                    <li><a href="javascript:void(0)">5</a></li>
+                    <li><a href="javascript:void(0)">6</a></li>
+                    <li><a href="javascript:void(0)">7</a></li>
+                    <li><a href="javascript:void(0)">下一页 ></a></li>
+                </ul>
+            <p style=" float: left; margin-top: 40px; margin-left: 100px;">
+                共21页  到第<input type="text" value="1" id="txt" style="text-align: center; width: 36px; height: 36px; border: 1px solid #e2e2e2;"> 页
+                <input id="but" type="button" value="确定" style=" width: 54px; line-height: 36px; text-align:center; margin-left: 50px; border: 1px solid #e2e2e2; background-color: #f3f3f3">
+            </p>
+        </div>
+    </div>
+    <!--<div id="footer">-->
+        <!--<img src="img/footerBanner.jpg">-->
+    <!--</div>-->
+</div>
+</body>
+</html>
